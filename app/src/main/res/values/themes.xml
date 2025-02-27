@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RcssVenues" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Hide the status bar -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Optional: Make the status bar transparent -->
+        <!-- <item name="android:windowTranslucentStatus">true</item> -->
+        <!-- <item name="android:statusBarColor">@android:color/transparent</item> -->
+
+        <!-- Optional: Change the status bar color -->
+        <!-- <item name="android:statusBarColor">@color/your_custom_color</item> -->
+    </style>
+
+    <style name="Theme.RcssVenues" parent="Base.Theme.RcssVenues" />
+</resources>

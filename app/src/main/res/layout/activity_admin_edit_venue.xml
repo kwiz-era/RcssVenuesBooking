@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminEditVenueActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="336dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="384dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="57dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/editTextVenueID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Venue ID"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:id="@+id/editTextVenueNameEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Venue Name"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/editTextLocationEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Location"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/editTextCapacityEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New Capacity"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonUpdateVenue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/design_default_color_secondary_variant"
+            android:minHeight="48dp"
+            android:text="Update Venue"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="298dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="318dp"
+        android:layout_marginEnd="45dp"
+        android:text="UpDate Venues"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_secondary_variant"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

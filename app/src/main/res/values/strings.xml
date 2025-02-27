@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RcssVenues</string>
+
+    <!-- Define roles_array for Spinner in registration -->
+    <string-array name="roles_array">
+        <item>Admin</item>
+        <item>Users</item>
+        <item>Receptionist</item>
+    </string-array>
+</resources>

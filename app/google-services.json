@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "509204036218",
+    "project_id": "rcssvenues-1bdd5",
+    "storage_bucket": "rcssvenues-1bdd5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509204036218:android:21f2313fd264e2fb5f59c3",
+        "android_client_info": {
+          "package_name": "com.example.rcssvenues"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuOaYeHrUo-0dZFaLnDiPWXsLto3wxjA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
